@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Chen — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Nav -->
+  <nav id="nav">
+    <a href="#" class="nav-logo">AC.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid-lines"></div>
+    <div class="hero-bg-text">ENGINEER</div>
+    <div class="hero-badge">Available for opportunities</div>
+    <h1 class="hero-name">Alex<br><span>Chen.</span></h1>
+    <p class="hero-tagline">Software engineer obsessed with building fast, scalable systems and the interfaces humans use to interact with them.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View my work ↓</a>
+      <a href="#contact" class="btn btn-outline">Get in touch</a>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-title">Building things<br>that matter.</div>
+        <p>I'm a software engineer with <strong>6+ years of experience</strong> building everything from distributed backend systems to polished user interfaces. I care deeply about performance, reliability, and developer experience.</p>
+        <p>Currently at <strong>Stripe</strong>, where I work on payment infrastructure serving millions of transactions per day. Previously at <strong>Figma</strong> and <strong>Cloudflare</strong>.</p>
+        <p>Outside of work, I contribute to open source, write about systems design, and occasionally mentor early-career engineers.</p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card"><div class="stat-number">6+</div><div class="stat-label">Years experience</div></div>
+        <div class="stat-card"><div class="stat-number">40+</div><div class="stat-label">Projects shipped</div></div>
+        <div class="stat-card"><div class="stat-number">12k</div><div class="stat-label">GitHub stars</div></div>
+        <div class="stat-card"><div class="stat-number">3x</div><div class="stat-label">Hackathon winner</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+    <div class="section-label">02 — Skills</div>
+    <div class="section-title reveal">The stack.</div>
+    <div class="skills-grid reveal">
+      <div class="skill-category">
+        <div class="skill-cat-title">// Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">TypeScript</span><span class="skill-tag">Go</span><span class="skill-tag">Rust</span><span class="skill-tag">Python</span><span class="skill-tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-title">// Frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">React</span><span class="skill-tag">Next.js</span><span class="skill-tag">WebGL</span><span class="skill-tag">CSS</span><span class="skill-tag">Figma</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-title">// Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Postgres</span><span class="skill-tag">Redis</span><span class="skill-tag">gRPC</span><span class="skill-tag">Kafka</span><span class="skill-tag">GraphQL</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-title">// Infrastructure</div>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS</span><span class="skill-tag">Kubernetes</span><span class="skill-tag">Terraform</span><span class="skill-tag">Docker</span><span class="skill-tag">Datadog</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-label">03 — Projects</div>
+    <div class="section-title reveal">Selected work.</div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-num">001</div>
+        <div class="project-title">Distributed Task Queue</div>
+        <p class="project-desc">A high-throughput job queue built in Go capable of processing 500k+ tasks/second with at-least-once delivery guarantees and priority scheduling.</p>
+        <div class="project-tech"><span class="tech-pill">Go</span><span class="tech-pill">Redis</span><span class="tech-pill">Postgres</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">002</div>
+        <div class="project-title">Real-time Collaborative Editor</div>
+        <p class="project-desc">A web-based code editor supporting real-time collaboration via CRDTs and WebSockets, with syntax highlighting for 40+ languages.</p>
+        <div class="project-tech"><span class="tech-pill">TypeScript</span><span class="tech-pill">React</span><span class="tech-pill">WebSockets</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">003</div>
+        <div class="project-title">Observability Platform</div>
+        <p class="project-desc">An internal observability tool that aggregates logs, metrics, and traces into a unified UI — saving engineering teams 4+ hours per incident.</p>
+        <div class="project-tech"><span class="tech-pill">React</span><span class="tech-pill">ClickHouse</span><span class="tech-pill">gRPC</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="section-label">04 — Experience</div>
+    <div class="section-title reveal">Where I've<br>worked.</div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2022 — Present</div>
+        <div>
+          <div class="timeline-company">Stripe</div>
+          <div class="timeline-role">Senior Software Engineer</div>
+          <p class="timeline-desc">Led infrastructure work on payment routing engine. Reduced P99 latency by 40% through query optimization and caching strategy overhaul. Mentored 4 junior engineers.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2020 — 2022</div>
+        <div>
+          <div class="timeline-company">Figma</div>
+          <div class="timeline-role">Software Engineer, Platform</div>
+          <p class="timeline-desc">Built internal tooling and developer platform components used by 200+ engineers. Owned the feature flag system and A/B testing infrastructure.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2018 — 2020</div>
+        <div>
+          <div class="timeline-company">Cloudflare</div>
+          <div class="timeline-role">Software Engineer</div>
+          <p class="timeline-desc">Worked on edge computing runtime (Workers). Contributed to Rust-based sandboxing layer and built customer-facing analytics dashboard from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="section-label">05 — Contact</div>
+    <div class="contact-title reveal">Let's build<br><span>something.</span></div>
+    <p class="contact-sub reveal">Open to senior IC roles, consulting work, and interesting side projects. Always happy to chat.</p>
+    <div class="contact-links reveal">
+      <a href="mailto:alex@example.com" class="btn btn-primary">Say hello →</a>
+      <a href="#" class="btn btn-outline">GitHub</a>
+      <a href="#" class="btn btn-outline">LinkedIn</a>
+      <a href="#" class="btn btn-outline">Twitter/X</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Alex Chen. All rights reserved.</p>
+    <p>Designed & built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
