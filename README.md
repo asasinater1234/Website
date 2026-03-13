@@ -49,5 +49,5 @@ To change the colour scheme, edit the CSS variables at the top of `style.css`:
 Update the contact details in `index.html` under the `#contact` section:
 
 - **Email:** ramanathanas12@gmail.com
-- **Phone:** +83 1767 1238
+- **Phone:** +65 8824 0908
 - **LinkedIn:** [linkedin.com/in/ramanathanas](https://www.linkedin.com/in/ramanathanas)
